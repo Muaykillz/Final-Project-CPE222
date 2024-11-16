@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/camera_test.v",
+  "InstLine" : 2,
+  "InstName" : "camera_test",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/camera_test.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "camera_test",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/camera_test.v",
+    "InstLine" : 42,
+    "InstName" : "u_pll",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   }
+  ]
+ }
+]

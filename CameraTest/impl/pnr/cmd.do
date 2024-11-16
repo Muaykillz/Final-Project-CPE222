@@ -1,0 +1,15 @@
+-d C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\impl\gwsynthesis\fpga_project.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\fpga_project.cst
+-cfg C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\impl\pnr\device.cfg
+-sdc C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\fpga_project.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

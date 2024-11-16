@@ -1,0 +1,34 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\gowin_pllvr\gowin_pllvr.v'
+Compiling module 'camera_test'("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":2)
+Extracting RAM for identifier 'frame_buffer'("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":33)
+Compiling module 'Gowin_PLLVR'("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\gowin_pllvr\gowin_pllvr.v":9)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":81)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":83)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":99)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":137)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":140)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":167)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\src\camera_test.v":177)
+NOTE  (EX0101) : Current top module is "camera_test"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\impl\gwsynthesis\fpga_project.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.10.01_x64\IDE\bin\Documents\CameraTest\impl\gwsynthesis\fpga_project_syn.rpt.html" completed
+GowinSynthesis finish

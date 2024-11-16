@@ -1,0 +1,21 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/camera_test.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Gowin/Gowin_V1.9.10.01_x64/IDE/bin/Documents/CameraTest/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
