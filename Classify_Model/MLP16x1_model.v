@@ -7,14 +7,14 @@ module MLP_model (
     // Layer 1: Dense
     reg signed [7:0] layer_1_weights [143:0][15:0];
     reg signed [7:0] layer_1_biases [15:0];
-    reg signed [15:0] layer_1_outputs [15:0];
+    reg signed [8:0] layer_1_outputs [15:0];
 
     // Layer 2: Dense
     reg signed [7:0] layer_2_weights [15:0][9:0];
     reg signed [7:0] layer_2_biases [9:0];
-    reg signed [23:0] layer_2_outputs [9:0];
+    reg signed [17:0] layer_2_outputs [9:0];
 
-    reg signed [23:0] max_val;
+    reg signed [17:0] max_val;
     reg [3:0] max_idx;
 
     initial begin
