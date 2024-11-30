@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Sat Nov 23 19:30:15 2024
+-- Date        : Sat Nov 23 19:30:14 2024
 -- Host        : LAPTOP-D1MNH2FH running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/Mu/Documents/CPE222/camera-test/camera-test.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top blk_mem_gen_0 -prefix
+--               blk_mem_gen_0_ blk_mem_gen_0_stub.vhdl
 -- Design      : blk_mem_gen_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35tcpg236-1

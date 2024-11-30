@@ -1,0 +1,2094 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 4736
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 28 22:56:18 ICT 2024
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1020
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+Java executable: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	Mu
+User home directory: C:/Users/Mu
+User working directory: C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: C:/Users/Mu/AppData/Roaming/Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: C:/Users/Mu/AppData/Roaming/Xilinx/Vivado/2024.2/
+Vivado layouts directory: C:/Users/Mu/AppData/Roaming/Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/vivado.log
+Vivado journal file: 	C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/vivado.jou
+Engine tmp dir: 	C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/.Xil/Vivado-4736-LAPTOP-D1MNH2FH
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+JAVA_HOME: C:\Program Files\Java\jdk-20
+RDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent18284 "C:\Users\Mu\Documents\CPE222\Final-Project-CPE222\OV7670-Basys3\camera-test.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_INSTALLVERSION: 2024.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2024.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2024.2/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/Xilinx/Vivado/2024.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vitis/2024.2/bin;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\Mu\Documents\CPE222\Final-Project-CPE222\OV7670-Basys3:LAPTOP-D1MNH2FH-Thu11-28-2024_22-55-56.69
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.2/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2024.2
+XILINX_SDK: C:/Xilinx/Vitis/2024.2
+XILINX_VITIS: C:/Xilinx/Vitis/2024.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2024.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2024.2\bin
+_RDI_CWD: C:\Users\Mu\Documents\CPE222\Final-Project-CPE222\OV7670-Basys3
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 880 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 95 MB (+96616kb) [00:00:13]
+// [Engine Memory]: 789 MB (+675559kb) [00:00:13]
+// Opening Vivado Project: C:\Users\Mu\Documents\CPE222\Final-Project-CPE222\OV7670-Basys3\camera-test.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 910 MB. GUI used memory: 72 MB. Current time: 11/28/24, 10:56:19 PM ICT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 138 MB (+41104kb) [00:00:20]
+// [Engine Memory]: 981 MB (+159911kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  2976 ms.
+// Tcl Message: open_project C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
+// [Engine Memory]: 1,043 MB (+13864kb) [00:00:22]
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1345.520 ; gain = 212.301 
+// Project name: camera-test; location: C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [GUI Memory]: 155 MB (+10296kb) [00:00:26]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.srcs/utils_1/imports/synth_1/ov7670_top.dcp with file C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.runs/synth_1/ov7670_top.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background", "Starting Design Runs"); // a (RDIResource.ProgressDialog_BACKGROUND)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Thu Nov 28 22:56:32 2024] Launched synth_1... Run output will be captured here: C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bh (Starting Design Runs Progress)
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+selectCodeEditor("ov7670_top.v", 666, 125); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 666, 125, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 664, 124); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 665, 126); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 665, 126); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 417, 71); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 417, 71, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectCodeEditor("ov7670_top.v", 443, 318); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 60, 503); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 60, 503, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 61, 529); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 62, 530, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 61, 513); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 61, 513, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 80 MB. Current time: 11/28/24, 11:26:21 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 80 MB. Current time: 11/28/24, 11:56:23 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 60 MB. Current time: 11/29/24, 12:26:25 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 60 MB. Current time: 11/29/24, 12:56:27 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 60 MB. Current time: 11/29/24, 1:26:30 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 60 MB. Current time: 11/29/24, 1:56:32 AM ICT
+// Elapsed time: 11666 seconds
+dismissDialog("Synthesis Completed"); // W.a (dialog0)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// WARNING: HEventQueue.dispatchEvent() is taking  1082 ms.
+dismissDialog("Re-customize IP"); // C (Re-customize IP Progress)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+// Elapsed time: 24 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+dismissDialog("Re-customize IP"); // m (dialog1)
+selectCodeEditor("ov7670_top.v", 192, 349); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 192, 349, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 199, 350); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 199, 350, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 118, 457); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 118, 456, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 75, 451); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 60, 371); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 134, 365); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 134, 364, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 167, 176); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 167, 176, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 74 seconds
+selectCodeEditor("ov7670_top.v", 24, 327); // ae (ov7670_top.v)
+typeControlKey((HResource) null, "ov7670_top.v", 'c'); // ae (ov7670_top.v)
+// Elapsed time: 116 seconds
+selectCodeEditor("ov7670_top.v", 162, 163); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 215, 263); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 215, 263, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 226, 266); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 227, 267, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+typeControlKey((HResource) null, "ov7670_top.v", 'c'); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 163, 202); // ae (ov7670_top.v)
+// Elapsed time: 19 seconds
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+// Elapsed time: 19 seconds
+selectCodeEditor("ov7670_top.v", 248, 241); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 249, 241, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 261, 231); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 262, 232, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+typeControlKey((HResource) null, "ov7670_top.v", 'c'); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 240, 349); // ae (ov7670_top.v)
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 387, 350); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:41s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:43s
+// Elapsed time: 14 seconds
+selectCodeEditor("ov7670_top.v", 106, 343); // ae (ov7670_top.v)
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:51s
+typeControlKey(null, null, 'z');
+selectCodeEditor("ov7670_top.v", 235, 344); // ae (ov7670_top.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:53s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:55s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:20m:57s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 66 MB. Current time: 11/29/24, 2:26:33 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 66 MB. Current time: 11/29/24, 2:56:36 AM ICT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1420 ms. Increasing delay to 3000 ms.
+// Elapsed time: 2814 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+dismissDialog("Open IP Catalog"); // bh (Open IP Catalog Progress)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // J (PAResourceOtoP.PAViews_IP_CATALOG, PlanAheadTabIP Catalog)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Show IP Hierarchy"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // u (dialog2)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:08m:45s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:08m:47s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), clk_div : clk_wiz_0 (clk_wiz_0.xci)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1177 ms.
+dismissDialog("Re-customize IP"); // C (Re-customize IP Progress)
+// Elapsed time: 190 seconds
+setText("Component Name", "clk_wiz_0"); // I (Component Name)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 0); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+// Elapsed time: 70 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 2); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cK (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Re-customize IP"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Re-customize IP"); // m (dialog3)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // aq (RDIResourceCommand.RDICommands_COPY, edit_copy_menu)
+// Elapsed time: 110 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+// Elapsed time: 63 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+// Elapsed time: 32 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Re-customize IP"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Re-customize IP"); // m (dialog4)
+dismissDialog("Generate Output Products"); // W (dialog5)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // R (PAResourceOtoP.PAViews_MESSAGES, Messages)
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // C (PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, Messages_cleanUpMessages)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_WARNING_MESSAGES): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectComboBox("Memory Type (Memory_Type)", "Simple Dual Port RAM", 1); // D (Memory Type (Memory_Type))
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Re-customize IP"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize IP"); // m (dialog6)
+// [GUI Memory]: 163 MB (+457kb) [04:22:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 90 MB. Current time: 11/29/24, 3:26:39 AM ICT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1749 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1041 ms. Increasing delay to 3123 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 90 MB. Current time: 11/29/24, 3:56:41 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 90 MB. Current time: 11/29/24, 4:26:44 AM ICT
+// Elapsed time: 4833 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), vga_display : vga (vga_disp.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("vga_disp.v", 325, 112); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 860 seconds
+selectCodeEditor("vga_disp.v", 271, 237); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 360, 146); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 370, 187); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  87146201 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 92 MB. Current time: 11/30/24, 5:04:37 AM ICT
+// [GUI Memory]: 176 MB (+4919kb) [30:25:51]
+// Elapsed time: 89125 seconds
+selectCodeEditor("vga_disp.v", 349, 112); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 348, 171); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 333, 180); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 333, 180, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 318, 277); // ae (vga_disp.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 90 MB. Current time: 11/30/24, 5:34:41 AM ICT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1729 ms. Increasing delay to 5187 ms.
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectCodeEditor("ov7670_top.v", 59, 94); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 45, 104); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 198, 90); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 198, 90, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 66, 237); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 66, 237, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 52, 404); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 52, 404, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 27, 417); // ae (ov7670_top.v)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 99, 283); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 99, 283, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 36, 306); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 36, 306, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), IIC : I2C_AV_Config (camera_config.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), IIC : I2C_AV_Config (camera_config.v)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:40m:32s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:40m:34s
+// Elapsed time: 40 seconds
+selectCodeEditor("ov7670_top.v", 91, 303); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 91, 303, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 133, 318); // ae (ov7670_top.v)
+// Elapsed time: 118 seconds
+selectCodeEditor("ov7670_top.v", 71, 448); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 31, 579); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 27, 183); // ae (ov7670_top.v)
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:43m:28s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:43m:30s
+selectCodeEditor("ov7670_top.v", 127, 247); // ae (ov7670_top.v)
+// Elapsed time: 18 seconds
+selectCodeEditor("ov7670_top.v", 80, 346); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 80, 346, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 51, 368); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 52, 367, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 67, 408); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 67, 408, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 77, 445); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 282, 436); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 253, 359); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 279, 457); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 357, 530); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:44m:10s
+selectCodeEditor("ov7670_top.v", 99, 264); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 99, 264, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 70, 284); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 70, 284, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:44m:14s
+selectCodeEditor("ov7670_top.v", 103, 551); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 103, 551, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 106, 526); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 225, 544); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 225, 544, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 112 seconds
+selectCodeEditor("ov7670_top.v", 52, 284); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 52, 284, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 123, 297); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 123, 297, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 57, 309); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 57, 309, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 60, 391); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 60, 391, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 72, 372); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 83, 365); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 83, 365, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 84, 387); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 84, 387, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 84, 375); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 84, 375, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 198, 341); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 228, 336); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 229, 325); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 490, 279); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 242, 335); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 245, 366); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 245, 334); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 241, 357); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 225, 351); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:46m:38s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:46m:42s
+// Elapsed time: 22 seconds
+selectCodeEditor("ov7670_top.v", 168, 378); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 172, 343); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 172, 343, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 163, 456); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 163, 456); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 163, 456); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 163, 456, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 137, 355); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 138, 355, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("ov7670_top.v", 35, 413); // ae (ov7670_top.v)
+typeControlKey((HResource) null, "ov7670_top.v", 'v'); // ae (ov7670_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:47m:32s
+selectCodeEditor("ov7670_top.v", 131, 515); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 131, 514, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 137, 506); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 138, 506, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 147, 506); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 148, 506, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:47m:36s
+selectCodeEditor("ov7670_top.v", 160, 506); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 162, 506, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Symbol", 0); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+dismissDialog("Re-customize IP"); // m (dialog7)
+selectCodeEditor("ov7670_top.v", 110, 375); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 110, 375, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 120, 369); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 120, 369, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 51, 395); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 146, 133); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 52, 87); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:48m:32s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:48m:36s
+selectCodeEditor("vga_disp.v", 71, 122); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:48m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:48m:44s
+// Elapsed time: 107 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 34, 439); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 205, 492); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 61, 175); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:00s
+selectCodeEditor("vga_disp.v", 16, 315); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 19, 298); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:04s
+selectCodeEditor("vga_disp.v", 214, 242); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 237, 202); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 142, 143); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 309, 207); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:12s
+selectCodeEditor("vga_disp.v", 33, 319); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:16s
+selectCodeEditor("vga_disp.v", 26, 311); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 28, 344); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 28, 344, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 37, 321); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 37, 320, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 40, 351); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 40, 351, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 119, 420); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 246, 408); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 569, 252); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:26s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:51m:30s
+// Elapsed time: 133 seconds
+selectCodeEditor("vga_disp.v", 278, 475); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 113, 451); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 128, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 128, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 181, 338); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 171, 340); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 171, 340, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 173, 328); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 173, 328, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ov7670_top.v", 58, 476); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 58, 476, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 61, 501); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 61, 501, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 170, 213); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 170, 213, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 169, 195); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 169, 195, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 25 seconds
+selectCodeEditor("vga_disp.v", 179, 320); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 77, 305); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 77, 305, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 150, 302); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 150, 302, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 180, 387); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 209, 451); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 203, 449); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 449, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 205, 249); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 210, 267); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 203, 304); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 197, 268); // ae (vga_disp.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ov7670_top.v", 194, 325); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 207, 358); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 201, 325); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 201, 325, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 214, 241); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 213, 243, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 213, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 213, 272); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 213, 272, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 215, 288); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 215, 288, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 205, 478); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 205, 478, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 194, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 190, 472); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 190, 472, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 182, 484); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 185, 472); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 185, 472, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ov7670_top.v", 214, 405); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 214, 405, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 205, 433); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 205, 433, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 222, 534); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 222, 534, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("ov7670_top.v", 199, 559); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 199, 559, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 193, 545); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 193, 545, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 187, 569); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 187, 569, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 186, 543); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 186, 543, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 189, 571); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 189, 571, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 192, 560); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 192, 560, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectCodeEditor("ov7670_top.v", 201, 531); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 201, 531, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 218, 463); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 463, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 220, 450); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 220, 450, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 223, 477); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 223, 477, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 193, 376); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 135, 414); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 110, 411); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 28, 154); // ae (vga_disp.v)
+// Elapsed time: 18 seconds
+selectCodeEditor("vga_disp.v", 84, 279); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 140, 216); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 41, 614); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 250, 380); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:02s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:04s
+selectCodeEditor("vga_disp.v", 178, 598); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 169, 610); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 194, 603); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 606); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 183, 601); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 591); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 146, 599); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 203, 594); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 216, 557); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 73, 536); // ae (vga_disp.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("vga_disp.v", 45, 536); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 39, 533); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 215, 578); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 574); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 219, 551); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 73, 561); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:46s
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 142, 477); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("vga_disp.v", 34, 474); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:50s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:54s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:57m:56s
+selectCodeEditor("vga_disp.v", 45, 433); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 45, 433); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 194, 404); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 177, 411); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 217, 371); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 235, 370); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 100, 386); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 101, 386, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 123, 360); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 213, 405); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 110, 346); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 189, 361); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 192, 406); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 124, 388); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 73, 369); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 71, 326); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:58m:34s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:58m:38s
+selectCodeEditor("vga_disp.v", 77, 381); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 113, 357); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 114, 370); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 114, 370, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 115, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 115, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 115, 330, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 115, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 131, 307); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 186, 269); // ae (vga_disp.v)
+// Elapsed time: 29 seconds
+selectCodeEditor("vga_disp.v", 260, 219); // ae (vga_disp.v)
+// Elapsed time: 43 seconds
+selectCodeEditor("vga_disp.v", 263, 402); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30h:59m:58s
+selectCodeEditor("vga_disp.v", 121, 435); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 121, 435, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 182, 428); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 182, 428, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 31h:00m:02s
+selectCodeEditor("vga_disp.v", 209, 385); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 209, 385, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 134, 413); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 134, 413, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 125, 422); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 138, 414); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 138, 414, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 92, 239); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 92, 239, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 110, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 110, 243, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("vga_disp.v", 125, 530); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 210, 557); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 198, 470); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 131, 516); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 75, 519); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 29, 562); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 37, 562); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 189, 557); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 167, 553); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 205, 562); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 204, 560, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 77, 556); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 120, 564); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 280, 574); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 69, 559); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 601); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 35, 605); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 31h:01m:22s
+selectCodeEditor("vga_disp.v", 100, 539); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 100, 539, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 113, 574); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 113, 574, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 31h:01m:26s
+// Elapsed time: 47 seconds
+selectCodeEditor("vga_disp.v", 124, 344); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 77, 207); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 77, 207, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 83, 346); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 83, 346, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("vga_disp.v", 415, 140); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 126, 189); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 101, 161); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 279, 165); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 284, 160); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 321, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 226, 206); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 304, 210); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 321, 202); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 161, 242); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 151, 247); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 151, 247, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 122, 267); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 116, 297); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 130, 325); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 288, 536); // ae (vga_disp.v)
+// Elapsed time: 67 seconds
+selectCodeEditor("vga_disp.v", 109, 428); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 78, 439); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 117, 534); // ae (vga_disp.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("vga_disp.v", 52, 532); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 12, 529); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 1, 539); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 117, 260); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 119, 258, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 108, 269); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 132, 279); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 31h:04m:33s
+selectCodeEditor("vga_disp.v", 81, 265); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 81, 264, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 31h:04m:36s
+selectCodeEditor("vga_disp.v", 109, 581); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 184, 415); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 184, 415, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 333, 410); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 144, 436); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 109, 496); // ae (vga_disp.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 143, 407); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 39, 404); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 4, 408); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 149, 284); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 145, 291); // ae (vga_disp.v)
+// WARNING: HEventQueue.dispatchEvent() is taking  20617195 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1294 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 98 MB. Current time: 11/30/24, 11:45:30 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 90 MB. Current time: 11/30/24, 12:15:32 PM ICT
+// Elapsed time: 22978 seconds
+selectCodeEditor("vga_disp.v", 121, 342); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 337, 279); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37h:28m:26s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37h:28m:28s
+selectCodeEditor("vga_disp.v", 105, 389); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 124, 419); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 106, 455); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37h:28m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37h:28m:44s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 98 MB. Current time: 11/30/24, 12:45:35 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 98 MB. Current time: 11/30/24, 1:15:38 PM ICT
+// Elapsed time: 4834 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 633, 166); // ae (vga_disp.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 411, 197); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 410, 193, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 410, 191); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 410, 191, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 410, 191); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 410, 191); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 377, 143); // ae (vga_disp.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 100 MB. Current time: 11/30/24, 1:45:43 PM ICT
+selectCodeEditor("vga_disp.v", 36, 439); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 54, 359); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 108, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 109, 414); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 338, 290); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 285, 97); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 51, 271); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 36, 285); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 130, 496); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 315, 284); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 321, 190); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 491, 103); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 38h:49m:56s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 38h:49m:59s
+// Elapsed time: 948 seconds
+selectCodeEditor("vga_disp.v", 144, 88); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 101, 171); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 184, 179); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 193, 188); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 201, 207); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 201, 207, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 196, 257); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 196, 257, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 171, 331); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 171, 331, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 172, 357); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 172, 357, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 172, 332); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 172, 332, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 169, 344); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 169, 344, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 165, 317); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 165, 317, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 123, 434); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 190, 497); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:06m:00s
+selectCodeEditor("vga_disp.v", 96, 460); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 88, 454); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39h:06m:02s
+selectCodeEditor("vga_disp.v", 105, 514); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 105, 514, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 139, 385); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 385, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 20, 175); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 20, 175, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 22, 204); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 22, 204, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 8, 221); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 7, 221, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 15, 246); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 15, 246, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 7, 269); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 7, 269, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 0, 300); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 14, 355); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 14, 355, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 111, 332); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 111, 332, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 12, 155); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 12, 155, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("vga_disp.v", 50, 137); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 50, 137, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 32 seconds
+selectCodeEditor("vga_disp.v", 16, 266); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 16, 266, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 34, 322); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 34, 321, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 31, 473); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 31, 473, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 219 seconds
+selectCodeEditor("vga_disp.v", 26, 294); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 26, 294, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 96, 307); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 96, 307, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 97, 169); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 97, 169, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 143, 174); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 143, 174, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 99 MB. Current time: 11/30/24, 2:15:46 PM ICT
+// Elapsed time: 767 seconds
+selectCodeEditor("vga_disp.v", 139, 205); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 205, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 136, 231); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 136, 231, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 138, 225); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 138, 225, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("vga_disp.v", 123, 388); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 123, 388, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 139, 416); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 416, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 259, 393); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 215, 369); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 214, 369, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 294, 444); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 276, 470); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 80, 436); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 271, 206); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 311, 302); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 60 seconds
+selectCodeEditor("vga_disp.v", 246, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 328, 158); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 149, 412); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 149, 411, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 202, 407); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 407, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 202, 408); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 203, 408, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 197, 456); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 197, 456, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 205, 599); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 205, 599, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 114, 603); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 181, 604); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 181, 604, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 199, 597); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 199, 597, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 218, 347); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 347, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 106, 124); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 106, 124, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 139, 217); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 217, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 276, 228); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 276, 228, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 59 seconds
+selectCodeEditor("vga_disp.v", 246, 141); // ae (vga_disp.v)
+// Elapsed time: 782 seconds
+selectCodeEditor("vga_disp.v", 129, 518); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 130, 517, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 120, 536); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 120, 536, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 136, 521); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 136, 521, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 136, 535); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 136, 535, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 144, 517); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 144, 517, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 142, 536); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 142, 536, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 160, 514); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 157, 523); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 134, 538); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 134, 538, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 135, 514); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 135, 514, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 127, 536); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 127, 536, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 134 seconds
+selectCodeEditor("vga_disp.v", 340, 447); // ae (vga_disp.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 391, 432); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 402, 441); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 445, 446); // ae (vga_disp.v)
+// Elapsed time: 27 seconds
+selectCodeEditor("vga_disp.v", 288, 499); // ae (vga_disp.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 143, 488); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 143, 487, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 99 MB. Current time: 11/30/24, 2:45:49 PM ICT
+// Elapsed time: 369 seconds
+selectCodeEditor("vga_disp.v", 160, 329); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 329, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 277, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 277, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 166, 106); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 166, 106, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 166, 99); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 164, 102, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 137, 77); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 137, 77, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 133, 106); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 134, 100); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 148, 96); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 149, 95, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 148, 68); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 153, 64); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 147, 75); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 147, 75, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 99 MB. Current time: 11/30/24, 3:15:53 PM ICT
+// Elapsed time: 3391 seconds
+selectCodeEditor("vga_disp.v", 257, 440); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 288, 406); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 394, 300); // ae (vga_disp.v)
+// Elapsed time: 81 seconds
+selectCodeEditor("vga_disp.v", 538, 258); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 97, 264); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 583, 264); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 521, 268); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 556, 267); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 594, 270); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 600, 269); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 556, 266); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 521, 265); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 713, 260); // ae (vga_disp.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 697, 266); // ae (vga_disp.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 99 MB. Current time: 11/30/24, 3:45:57 PM ICT
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("vga_disp.v", 710, 291); // ae (vga_disp.v)
+// Elapsed time: 33 seconds
+selectCodeEditor("vga_disp.v", 718, 260); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 551, 289); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 605, 309); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:50m:47s
+selectCodeEditor("vga_disp.v", 426, 258); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:50m:49s
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 496, 309); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 547, 284); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 609, 301); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 583, 284); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 776, 300); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 424, 299); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 425, 308); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 576, 308); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:51m:25s
+selectCodeEditor("vga_disp.v", 541, 303); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:51m:27s
+selectCodeEditor("vga_disp.v", 581, 309); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 495, 298); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 499, 301); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 502, 310); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 621, 309); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 552, 312); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 664, 308); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 622, 307); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:51m:47s
+selectCodeEditor("vga_disp.v", 422, 311); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 342, 314); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:51m:49s
+selectCodeEditor("vga_disp.v", 330, 352); // ae (vga_disp.v)
+// Elapsed time: 22 seconds
+selectCodeEditor("vga_disp.v", 422, 261); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 454, 361); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 554, 369); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 277, 367); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 537, 367); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 548, 368); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 708, 368); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 275, 384); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 267, 384); // ae (vga_disp.v)
+// Elapsed time: 28 seconds
+selectCodeEditor("vga_disp.v", 553, 261); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 687, 265); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 559, 265); // ae (vga_disp.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 361, 385); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 273, 410); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 277, 413); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 318, 409); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 322, 415); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 437, 386); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 427, 289); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 505, 395); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 537, 386); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 683, 389); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 683, 389, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 718, 385); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:53m:59s
+selectCodeEditor("vga_disp.v", 323, 411); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:54m:01s
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 349, 411); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:54m:13s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:54m:15s
+selectCodeEditor("vga_disp.v", 425, 303); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 448, 417); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 348); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 348, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 241, 382); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 227, 388); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 424, 410); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 448, 415); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 466, 413); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 498, 416); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 513, 410); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 559, 413); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:54m:29s
+selectCodeEditor("vga_disp.v", 305, 457); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 210, 419); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 133, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 133, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 40h:54m:31s
+selectCodeEditor("vga_disp.v", 159, 464); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 159, 464, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 160, 455); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 454, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 164, 472); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 164, 472, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 165, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 165, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 164, 476); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 164, 476, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 124, 436); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 131, 294); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 131, 294, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 142, 276); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 142, 276, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 46 seconds
+selectCodeEditor("vga_disp.v", 253, 310); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 108 seconds
+selectCodeEditor("vga_disp.v", 128, 359); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 129, 359, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 61 seconds
+selectCodeEditor("vga_disp.v", 152, 202); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 152, 202, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 127 seconds
+selectCodeEditor("vga_disp.v", 192, 234); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 186, 220); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 216, 330); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// Elapsed time: 51 seconds
+selectCodeEditor("vga_disp.v", 111, 471); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 290, 497); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 287, 518); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 305, 542); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 269, 541); // ae (vga_disp.v)
+// Elapsed time: 35 seconds
+selectCodeEditor("vga_disp.v", 172, 520); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 172, 520, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 163, 539); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 163, 539, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 190, 513); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 192, 513, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 559, 447); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:02m:29s
+selectCodeEditor("vga_disp.v", 203, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 203, 200, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:02m:31s
+selectCodeEditor("vga_disp.v", 218, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 200, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 218, 289); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 289, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 122, 540); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 122, 540, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 218, 370); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 370, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 68 seconds
+selectCodeEditor("ov7670_top.v", 188, 91); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 188, 91, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), u_frame_buffer : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 8, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// Elapsed time: 23 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+dismissDialog("Re-customize IP"); // m (dialog8)
+selectCodeEditor("ov7670_top.v", 194, 560); // ae (ov7670_top.v)
+selectCodeEditor("ov7670_top.v", 194, 560, false, false, false, false, true); // ae (ov7670_top.v) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 45 seconds
+selectCodeEditor("vga_disp.v", 218, 266); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 266, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 218, 549); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 218, 549, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 218, 547); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 532); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 532, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("vga_disp.v", 88, 412); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 88, 412, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 51 seconds
+selectCodeEditor("vga_disp.v", 252, 320); // ae (vga_disp.v)
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 282, 327); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 271, 347); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 520, 344); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:08m:51s
+selectCodeEditor("vga_disp.v", 527, 352); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:08m:53s
+// Elapsed time: 12 seconds
+selectCodeEditor("vga_disp.v", 171, 177); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:09m:17s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:09m:19s
+// Elapsed time: 38 seconds
+selectCodeEditor("vga_disp.v", 137, 216); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 137, 216, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 150, 557); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 150, 557, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 154, 411); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 154, 411, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 157, 511); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 157, 511, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 509, 372); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 504, 368); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 144, 267); // ae (vga_disp.v)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // C (RDIResourceCommand.RDICommands_DELETE)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+typeControlKey(null, null, 'z');
+selectCodeEditor("vga_disp.v", 296, 509); // ae (vga_disp.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (RDIResource.HCodeEditor_CLOSE)
+selectCodeEditor("vga_disp.v", 508, 402); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 60, 271); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 4, 266); // ae (vga_disp.v)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // C (RDIResourceCommand.RDICommands_DELETE)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // C (RDIResourceCommand.RDICommands_DELETE)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // C (RDIResourceCommand.RDICommands_DELETE)
+selectCodeEditor("vga_disp.v", 228, 250); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:10m:43s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:10m:45s
+selectCodeEditor("vga_disp.v", 254, 240); // ae (vga_disp.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 90, 247); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 252, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 191, 205); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 251, 352); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 202, 222); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 157, 223); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 223); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 210, 249); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 180, 240); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 169, 226); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 172, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 181, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 178, 223); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 182, 196); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 222, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 174, 245); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 211, 245); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 214, 246); // ae (vga_disp.v)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 339, 241); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 339, 241, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 440, 242); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 420, 231); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 420, 231, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 468, 233); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 217, 266); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 174, 259); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:11m:35s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:11m:37s
+selectCodeEditor("vga_disp.v", 182, 260); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 264); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 143, 290); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:11m:45s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:11m:47s
+// Elapsed time: 133 seconds
+selectCodeEditor("vga_disp.v", 242, 391); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 242, 391, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 168, 452); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 168, 452, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 246, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 246, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 179, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 179, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 141, 477); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 141, 477, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 160, 542); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 117, 579); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 324, 551); // ae (vga_disp.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("vga_disp.v", 106, 369); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 81, 370); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:34s
+selectCodeEditor("vga_disp.v", 342, 393); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 334, 386); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:36s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:38s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("vga_disp.v", 203, 602); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:40s
+selectCodeEditor("vga_disp.v", 334, 389); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:44s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:46s
+selectCodeEditor("vga_disp.v", 418, 385); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:50s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:14m:52s
+selectCodeEditor("vga_disp.v", 387, 430); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 353, 441); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 368, 435); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 102, 391); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 142, 434); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 363, 373); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:02s
+selectCodeEditor("vga_disp.v", 321, 388); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:04s
+selectCodeEditor("vga_disp.v", 106, 396); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 151, 432); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 359, 428); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 441, 388); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:10s
+selectCodeEditor("vga_disp.v", 146, 513); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:12s
+selectCodeEditor("vga_disp.v", 334, 564); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:18s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:20s
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:28s
+selectCodeEditor("vga_disp.v", 126, 563); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:30s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:32s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:15m:34s
+// Elapsed time: 47 seconds
+selectCodeEditor("vga_disp.v", 285, 369); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 252, 468); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 420, 480); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:30s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:32s
+// Elapsed time: 17 seconds
+selectCodeEditor("vga_disp.v", 120, 461); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 275, 418); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:50s
+selectCodeEditor("vga_disp.v", 266, 459); // ae (vga_disp.v)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:52s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:54s
+selectCodeEditor("vga_disp.v", 149, 480); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:16m:58s
+selectCodeEditor("vga_disp.v", 282, 221); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:17m:00s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:17m:02s
+selectCodeEditor("vga_disp.v", 116, 244); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:17m:04s
+selectCodeEditor("vga_disp.v", 133, 263); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 133, 263, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 241, 266); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 241, 265, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 133, 434); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 133, 434, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 90, 456); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 90, 456, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 88, 477); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 88, 477, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 147, 473); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 147, 473, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 172, 498); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 172, 498, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 105 MB. Current time: 11/30/24, 4:15:58 PM ICT
+// Elapsed time: 227 seconds
+selectCodeEditor("vga_disp.v", 259, 371); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 259, 371, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 111, 487); // ae (vga_disp.v)
+// Elapsed time: 78 seconds
+selectCodeEditor("vga_disp.v", 112, 426); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 336, 459); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 342, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 340, 454); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 340 seconds
+selectCodeEditor("vga_disp.v", 117, 436); // ae (vga_disp.v)
+// Elapsed time: 123 seconds
+selectCodeEditor("vga_disp.v", 10, 391); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 52, 562); // ae (vga_disp.v)
+// Elapsed time: 56 seconds
+selectCodeEditor("vga_disp.v", 108, 579); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 306, 322); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 295, 320); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 408, 371); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 514, 295); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 376, 384); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 144, 598); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:31m:50s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:31m:52s
+// Elapsed time: 18 seconds
+selectCodeEditor("vga_disp.v", 104, 230); // ae (vga_disp.v)
+// Elapsed time: 49 seconds
+selectCodeEditor("vga_disp.v", 105, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 96, 241); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 653, 241); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 344, 238); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 429, 240); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 353, 242); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 21 seconds
+selectCodeEditor("vga_disp.v", 160, 250); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 69, 245); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// Elapsed time: 46 seconds
+selectCodeEditor("vga_disp.v", 308, 245); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 308, 245, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 292, 242); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 300, 248); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 283, 243); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 71, 241); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 347, 387); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 190, 390); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 331, 398); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 93, 208); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 11, 473); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 11, 473, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:34m:44s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:34m:46s
+selectCodeEditor("vga_disp.v", 197, 351); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:34m:48s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41h:34m:50s
+selectCodeEditor("vga_disp.v", 13, 282); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 37, 274); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 44, 244); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 150, 289); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 198, 285); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 40, 384); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 138, 316); // ae (vga_disp.v)
+// Elapsed time: 20 seconds
+selectCodeEditor("vga_disp.v", 24, 416); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 77, 410); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 157, 297); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 157, 297, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 165, 522); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 165, 522, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 38 seconds
+selectCodeEditor("vga_disp.v", 52, 438); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 40, 139); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 195, 157); // ae (vga_disp.v)
+// Elapsed time: 14 seconds
+selectCodeEditor("vga_disp.v", 304, 157); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 270, 159); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 270, 158, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 371, 159); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 50, 365); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 112, 393); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 112, 393, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 124 seconds
+selectCodeEditor("vga_disp.v", 123, 209); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 123, 209, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("vga_disp.v", 380, 223); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 380, 223, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 128, 204); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 128, 204, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 131, 215); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 131, 215, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 144, 203); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 145, 210); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 141, 238); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 130, 130); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 130, 129, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 132, 179); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 132, 178, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 61 seconds
+selectCodeEditor("vga_disp.v", 83, 255); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 83, 255, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 91, 385); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 91, 385, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 49 seconds
+selectCodeEditor("vga_disp.v", 387, 557); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 266); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 139, 266, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 159, 95); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 159, 95, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 106 MB. Current time: 11/30/24, 4:46:01 PM ICT
+// Elapsed time: 1492 seconds
+selectCodeEditor("vga_disp.v", 361, 515); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 220 seconds
+selectCodeEditor("vga_disp.v", 160, 343); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 343, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("vga_disp.v", 323, 373); // ae (vga_disp.v)
+// Elapsed time: 33 seconds
+selectCodeEditor("vga_disp.v", 358, 454); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:11m:08s
+selectCodeEditor("vga_disp.v", 431, 454); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:11m:10s
+// Elapsed time: 24 seconds
+selectCodeEditor("vga_disp.v", 353, 424); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 347, 409); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 379, 531); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 369, 453); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 388, 580); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 387, 553); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:11m:44s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:11m:46s
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 155, 447); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 155, 447, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 129, 558); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 120, 552); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 120, 552, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 103, 553); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 103, 553, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("vga_disp.v", 113, 518); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 113, 518, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 153, 512); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 153, 512, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 102, 519); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 103, 519, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 120, 521); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 120, 521, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 163, 518); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 163, 518, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 126, 532); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 126, 532, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 183, 520); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 183, 533); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 197, 534); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 197, 534); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 121, 493); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 121, 493, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("vga_disp.v", 557, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 561, 75); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 249, 69); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 629, 66); // ae (vga_disp.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 640, 75); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 608, 73); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 589, 80); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 597, 78); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 584, 200); // ae (vga_disp.v)
+// Elapsed time: 51 seconds
+selectCodeEditor("vga_disp.v", 578, 205); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:14m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:14m:44s
+selectCodeEditor("vga_disp.v", 600, 224); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 588, 225); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 593, 223); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 66 seconds
+selectCodeEditor("vga_disp.v", 48, 453); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 47 seconds
+selectCodeEditor("vga_disp.v", 163, 427); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 169, 431); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:16m:59s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:17m:01s
+// Elapsed time: 61 seconds
+selectCodeEditor("vga_disp.v", 484, 197); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 463, 200); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 331, 225); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 257, 201); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 257, 201, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 247, 199, false, false, false, true, false); // ae (vga_disp.v) - Popup Trigger
+selectCodeEditor("vga_disp.v", 237, 199); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 241, 231); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 468, 195); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 254, 134); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 235, 133, false, false, false, true, false); // ae (vga_disp.v) - Popup Trigger
+selectCodeEditor("vga_disp.v", 195, 176); // ae (vga_disp.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("vga_disp.v", 156, 136); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 137); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 231, 137, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 265, 460); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 265, 460, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 257, 456, false, false, false, true, false); // ae (vga_disp.v) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // ai (RDIResource.HCodeEditor_BLANK_OPERATIONS)
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // ai (RDIResource.HCodeEditor_BLANK_OPERATIONS)
+selectMenu(RDIResource.HCodeEditor_DIFF_AGAINST, "Diff against"); // ai (RDIResource.HCodeEditor_DIFF_AGAINST)
+selectMenu(RDIResource.HCodeEditor_COMMANDS_TO_FOLD_TEXT, "Folding"); // ai (RDIResource.HCodeEditor_COMMANDS_TO_FOLD_TEXT)
+selectMenu(RDIResource.HCodeEditor_DIFF_AGAINST, "Diff against"); // ai (RDIResource.HCodeEditor_DIFF_AGAINST)
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // ai (RDIResource.HCodeEditor_BLANK_OPERATIONS)
+selectCodeEditor("vga_disp.v", 209, 462); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 248, 453); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 248, 453, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("vga_disp.v", 464, 129); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 464, 129, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 106 MB. Current time: 11/30/24, 5:16:03 PM ICT
+// Elapsed time: 29 seconds
+selectCodeEditor("vga_disp.v", 45, 632); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 13, 598); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 42, 627); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 24, 628); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 25, 625); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 68 seconds
+selectCodeEditor("vga_disp.v", 85, 245); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 85, 245, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("vga_disp.v", 65, 347); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 65, 347, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 153, 369); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 153, 369, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 69 seconds
+selectCodeEditor("vga_disp.v", 638, 138); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 638, 138, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 475, 140); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 663, 140); // ae (vga_disp.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 166, 431); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 170, 432); // ae (vga_disp.v)
+// Elapsed time: 14 seconds
+selectCodeEditor("vga_disp.v", 463, 13); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 463, 13, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("vga_disp.v", 477, 138); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 477, 138, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 57 seconds
+selectCodeEditor("vga_disp.v", 374, 203); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 28, 437); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 97, 422); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 433); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 433, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 340, 424); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 339, 424, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 322, 427); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 322, 427, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 258, 433); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 246, 199); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 294, 190); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 292, 419); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 280, 432); // ae (vga_disp.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("vga_disp.v", 330, 428); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 330, 428, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 344, 427); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 344, 427, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 269, 390); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 355, 425); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:25m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:25m:44s
+selectCodeEditor("vga_disp.v", 186, 222); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 186, 222, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 96, 240); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 96, 240, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 87, 422); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 82, 435); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 4, 426); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:25m:54s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:25m:56s
+// Elapsed time: 144 seconds
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 392, 497); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 381, 490); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 372, 500); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 380, 496); // ae (vga_disp.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:28m:26s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_disp.v", 472, 571); // ae (vga_disp.v)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:28m:29s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:28m:30s
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:28m:38s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:28m:40s
+selectCodeEditor("vga_disp.v", 146, 391); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 146, 391, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 166, 382); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 166, 382, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 58 seconds
+selectCodeEditor("vga_disp.v", 155, 285); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 155, 285, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 138, 180); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 138, 180, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 154, 227); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 154, 227, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 159, 218); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 159, 218, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_disp.v", 197, 220); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 361, 221); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 204, 448); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 225, 455); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 304, 448); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:30m:30s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:30m:33s
+// Elapsed time: 17 seconds
+selectCodeEditor("vga_disp.v", 164, 283); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 160, 282); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 179, 282); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 110, 330); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 249, 325); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 81, 368); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 204, 369); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 58, 370); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 174, 365); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 141, 372); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 188, 364); // ae (vga_disp.v)
+// Elapsed time: 14 seconds
+selectCodeEditor("vga_disp.v", 82, 538); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 82, 538, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_disp.v", 311, 471); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 306, 471); // ae (vga_disp.v)
+// Elapsed time: 50 seconds
+selectCodeEditor("vga_disp.v", 237, 553); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 225, 490); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 225, 490, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 273, 493); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 223, 495); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 306, 493); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 223, 497); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 330, 496); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 224, 495); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 264, 500); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 79, 473); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 79, 473, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 307, 475); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 63, 472); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 293, 477); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 161, 474); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 320, 469); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 313, 423); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:32m:38s
+// [GUI Memory]: 186 MB (+404kb) [42:33:01]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:32m:40s
+// Elapsed time: 19 seconds
+selectCodeEditor("vga_disp.v", 50, 643); // ae (vga_disp.v)
+// Elapsed time: 253 seconds
+selectCodeEditor("vga_disp.v", 273, 488); // ae (vga_disp.v)
+// Elapsed time: 74 seconds
+selectCodeEditor("vga_disp.v", 116, 493); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 116, 493, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 51, 645); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 32, 642); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 25, 648); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 25, 648); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'c'); // ae (vga_disp.v)
+// Elapsed time: 513 seconds
+selectCodeEditor("vga_disp.v", 108, 599); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 101, 598); // ae (vga_disp.v)
+// Elapsed time: 132 seconds
+selectCodeEditor("vga_disp.v", 128, 479); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 128, 479, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 281, 418); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 281, 418, false, false, false, false, true); // ae (vga_disp.v) - Double Click
+selectCodeEditor("vga_disp.v", 99, 141); // ae (vga_disp.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 107 MB. Current time: 11/30/24, 5:46:05 PM ICT
+// Elapsed time: 342 seconds
+selectCodeEditor("vga_disp.v", 167, 535); // ae (vga_disp.v)
+typeControlKey((HResource) null, "vga_disp.v", 'v'); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 258, 569); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 262, 553); // ae (vga_disp.v)
+selectCodeEditor("vga_disp.v", 266, 536); // ae (vga_disp.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:55m:24s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 42h:55m:26s
+// Elapsed time: 111 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "camera_config.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), IIC : I2C_AV_Config (camera_config.v), sccb_sender : I2C_Controller (sccb_sender.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), IIC : I2C_AV_Config (camera_config.v), sccb_sender : I2C_Controller (sccb_sender.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), IIC : I2C_AV_Config (camera_config.v), sccb_sender : I2C_Controller (sccb_sender.v)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 48 seconds
+selectCodeEditor("sccb_sender.v", 674, 165); // ae (sccb_sender.v)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "h72"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 19 seconds
+selectCodeEditor("sccb_sender.v", 483, 29); // ae (sccb_sender.v)
+// Elapsed time: 30 seconds
+selectCodeEditor("sccb_sender.v", 506, 244); // ae (sccb_sender.v)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "h0c"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 130 seconds
+selectCodeEditor("sccb_sender.v", 451, 104); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 449, 98); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'c'); // ae (sccb_sender.v)
+// Elapsed time: 246 seconds
+selectCodeEditor("sccb_sender.v", 484, 186); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:05m:56s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:06m:00s
+// Elapsed time: 329 seconds
+selectCodeEditor("sccb_sender.v", 671, 96); // ae (sccb_sender.v)
+// Elapsed time: 22 seconds
+selectCodeEditor("sccb_sender.v", 766, 146); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:11m:47s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error ERROR: [Common 17-180] Spawn failed: No error 
+selectCodeEditor("sccb_sender.v", 647, 95); // ae (sccb_sender.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:11m:49s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:11m:53s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:11m:55s
+selectCodeEditor("sccb_sender.v", 665, 329); // ae (sccb_sender.v)
+// Elapsed time: 159 seconds
+selectCodeEditor("sccb_sender.v", 556, 171); // ae (sccb_sender.v)
+// Elapsed time: 18 seconds
+selectCodeEditor("sccb_sender.v", 567, 261); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 567, 261, false, false, false, false, true); // ae (sccb_sender.v) - Double Click
+typeControlKey((HResource) null, "sccb_sender.v", 'c'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 450, 261); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 450, 261, false, false, false, false, true); // ae (sccb_sender.v) - Double Click
+selectCodeEditor("sccb_sender.v", 414, 266); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 435, 263); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'v'); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:02s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:04s
+// Elapsed time: 12 seconds
+selectCodeEditor("sccb_sender.v", 487, 183); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 577, 428); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:16s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:18s
+selectCodeEditor("sccb_sender.v", 566, 475); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 558, 472); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'c'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 575, 459); // ae (sccb_sender.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("sccb_sender.v", 558, 498); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'c'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 433, 493); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'v'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 561, 393); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'c'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 434, 389); // ae (sccb_sender.v)
+typeControlKey((HResource) null, "sccb_sender.v", 'v'); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 583, 426); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:42s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:44s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectCodeEditor("sccb_sender.v", 491, 365); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 489, 375); // ae (sccb_sender.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:48s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 43h:15m:50s
+// Elapsed time: 13 seconds
+selectCodeEditor("sccb_sender.v", 478, 284); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 478, 284, false, false, false, false, true); // ae (sccb_sender.v) - Double Click
+selectCodeEditor("sccb_sender.v", 478, 284); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 468, 289); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 468, 289, false, false, false, false, true); // ae (sccb_sender.v) - Double Click
+selectCodeEditor("sccb_sender.v", 466, 289); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 466, 289); // ae (sccb_sender.v)
+selectCodeEditor("sccb_sender.v", 46, 383); // ae (sccb_sender.v)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "camera_config.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("camera_config.v", 323, 60); // ae (camera_config.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_disp.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("vga_disp.v", 307, 58); // ae (vga_disp.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ov7670_top.v", 306, 92); // ae (ov7670_top.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), capture : ov7670_capture (camera_capture.v)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), capture : ov7670_capture (camera_capture.v)]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("camera_capture.v", 265, 197); // ae (camera_capture.v)
+// Elapsed time: 23 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), btn_debounce : debounce (debounce.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top (ov7670_top.v), btn_debounce : debounce (debounce.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("debounce.v", 248, 122); // ae (debounce.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "old"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("debounce.v", 493, 260); // ae (debounce.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_top.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 112 MB. Current time: 11/30/24, 6:16:08 PM ICT

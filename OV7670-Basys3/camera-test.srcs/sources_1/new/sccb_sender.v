@@ -307,7 +307,7 @@ always@(*)
 begin
 	case(LUT_INDEX)
 	
-    SET_OV7670 + 0 	: 	LUT_DATA	= 	16'h1214;	
+        SET_OV7670 + 0 	: 	LUT_DATA	= 	16'h1214;    // RGB output with QVGA format
     	SET_OV7670 + 1 	: 	LUT_DATA	= 	16'h40d0;	
     	SET_OV7670 + 2 	: 	LUT_DATA	= 	16'h3a04;	
     	SET_OV7670 + 3 	: 	LUT_DATA	=	16'h3dc8;
@@ -315,15 +315,15 @@ begin
     	SET_OV7670 + 5 	: 	LUT_DATA	= 	16'h6b00;	
     	SET_OV7670 + 6 	: 	LUT_DATA	= 	16'h32b6;	
     	SET_OV7670 + 7 	: 	LUT_DATA	= 	16'h1713;	 
-    	SET_OV7670 + 8 	: 	LUT_DATA	= 	16'h1801;	
+    	SET_OV7670 + 8 	: 	LUT_DATA	= 	16'h1801;	// Enable Downsampling
     	SET_OV7670 + 9 	: 	LUT_DATA	= 	16'h1902;	
     	SET_OV7670 + 10	: 	LUT_DATA	= 	16'h1a7a;	
     	SET_OV7670 + 11	: 	LUT_DATA	= 	16'h030a;	
-    	SET_OV7670 + 12 : 	LUT_DATA	= 	16'h0c00;
+    	SET_OV7670 + 12 : 	LUT_DATA	= 	16'h0c08;   // Enable zoom *Bug* should be DCW enable (0c04)
     	SET_OV7670 + 13 : 	LUT_DATA	= 	16'h3e00;
     	SET_OV7670 + 14 : 	LUT_DATA	= 	16'h7000;	
     	SET_OV7670 + 15 : 	LUT_DATA	= 	16'h7100;
-    	SET_OV7670 + 16 : 	LUT_DATA	= 	16'h7211;	        
+    	SET_OV7670 + 16 : 	LUT_DATA	= 	16'h7211;   // Downsampling V:1/2, H:1/2	        
     	SET_OV7670 + 17 : 	LUT_DATA	= 	16'h7300;	
     	SET_OV7670 + 18 : 	LUT_DATA	= 	16'ha202;	
     	SET_OV7670 + 19 : 	LUT_DATA	= 	16'h1180;	
@@ -380,7 +380,7 @@ begin
     	SET_OV7670 + 68	: 	LUT_DATA	= 	16'h4e20;
     	SET_OV7670 + 69	: 	LUT_DATA	= 	16'h6900;
     	
-    	SET_OV7670 + 70 : 	LUT_DATA	= 	16'h7419;
+    	SET_OV7670 + 70 : 	LUT_DATA	= 	16'h7419; // Old: 7419 Zoom 0.5x
     	SET_OV7670 + 71 : 	LUT_DATA	= 	16'h8d4f;
     	SET_OV7670 + 72 : 	LUT_DATA	= 	16'h8e00;
     	SET_OV7670 + 73 : 	LUT_DATA	= 	16'h8f00;
@@ -432,7 +432,7 @@ begin
     	
     	SET_OV7670 + 117 : 	LUT_DATA	=	16'h4108;
     	SET_OV7670 + 118 : 	LUT_DATA	=	16'h3f00;
-    	SET_OV7670 + 119 : 	LUT_DATA	=	16'h7505;
+    	SET_OV7670 + 119 : 	LUT_DATA	=	16'h7505; // OLD: 7505 Zoom 0.5x
     	SET_OV7670 + 120 : 	LUT_DATA	=	16'h76e1;
     	SET_OV7670 + 121 : 	LUT_DATA	=	16'h4c00;
     	SET_OV7670 + 122 : 	LUT_DATA	=	16'h7701;

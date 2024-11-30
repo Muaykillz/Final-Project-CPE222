@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Mu/Documents/CPE222/camera-test/camera-test.runs/synth_1'
+HD_PWD='C:/Users/Mu/Documents/CPE222/Final-Project-CPE222/OV7670-Basys3/camera-test.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
