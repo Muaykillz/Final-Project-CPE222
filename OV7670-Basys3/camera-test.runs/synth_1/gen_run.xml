@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1732809392" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ov7670_top.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1733074498" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ov7670_top.dcp">
   <File Type="PA-TCL" Name="ov7670_top.tcl"/>
   <File Type="REPORTS-TCL" Name="ov7670_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="ov7670_top.vds"/>
