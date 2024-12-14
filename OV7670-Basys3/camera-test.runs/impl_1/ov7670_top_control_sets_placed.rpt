@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Mon Dec  2 00:37:14 2024
+| Date         : Thu Dec 12 23:14:18 2024
 | Host         : LAPTOP-D1MNH2FH running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file ov7670_top_control_sets_placed.rpt
 | Design       : ov7670_top
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    21 |
-|    Minimum number of control sets                        |    21 |
+| Total control sets                                       |    23 |
+|    Minimum number of control sets                        |    23 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    84 |
+| Unused register locations in slices containing registers |    73 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    21 |
-| >= 0 to < 4        |     2 |
+| Total control sets |    23 |
+| >= 0 to < 4        |     1 |
 | >= 4 to < 6        |     4 |
-| >= 6 to < 8        |     3 |
-| >= 8 to < 10       |     2 |
+| >= 6 to < 8        |     5 |
+| >= 8 to < 10       |     4 |
 | >= 10 to < 12      |     2 |
-| >= 12 to < 14      |     2 |
-| >= 14 to < 16      |     1 |
-| >= 16              |     5 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,42 +58,44 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              18 |           12 |
-| No           | No                    | Yes                    |              23 |           10 |
-| No           | Yes                   | No                     |              70 |           27 |
-| Yes          | No                    | No                     |              37 |           13 |
-| Yes          | No                    | Yes                    |              20 |           10 |
-| Yes          | Yes                   | No                     |              60 |           18 |
+| No           | No                    | No                     |             106 |           40 |
+| No           | No                    | Yes                    |              23 |           11 |
+| No           | Yes                   | No                     |              77 |           25 |
+| Yes          | No                    | No                     |              27 |           13 |
+| Yes          | No                    | Yes                    |              19 |            7 |
+| Yes          | Yes                   | No                     |              91 |           32 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------+---------------------------------+---------------------------------+------------------+----------------+--------------+
-|         Clock Signal        |          Enable Signal          |         Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
-+-----------------------------+---------------------------------+---------------------------------+------------------+----------------+--------------+
-|  clk_div/inst/clk_out1      |                                 |                                 |                1 |              1 |         1.00 |
-|  clk_div/inst/clk_out2      | IIC/sccb_sender/i2c_negclk      | btn_debounce/o                  |                1 |              1 |         1.00 |
-|  vga_display/vga_hsync_OBUF |                                 | vga_display/VCNT[9]_i_1_n_0     |                2 |              4 |         2.00 |
-|  OV7670_PCLK_IBUF_BUFG      |                                 | OV7670_VSYNC_IBUF               |                2 |              4 |         2.00 |
-|  clk_div/inst/clk_out2      |                                 | vga_display/HCNT[8]_i_1_n_0     |                2 |              4 |         2.00 |
-|  clk_div/inst/clk_out2      | IIC/sccb_sender/E[0]            | btn_debounce/o                  |                2 |              5 |         2.50 |
-|  vga_display/vga_hsync_OBUF |                                 | vga_display/VCNT[8]_i_1_n_0     |                2 |              6 |         3.00 |
-|  clk_div/inst/clk_out2      |                                 | vga_display/HCNT[9]_i_1_n_0     |                3 |              6 |         2.00 |
-|  clk_div/inst/clk_out2      | IIC/sccb_sender/SD_COUNTER      | btn_debounce/o                  |                3 |              6 |         2.00 |
-|  clk_div/inst/clk_out2      | IIC/LUT_INDEX[0]_i_1_n_0        | btn_debounce/o                  |                4 |              8 |         2.00 |
-|  OV7670_PCLK_IBUF_BUFG      | capture/pixel_cnt               | capture/pixel_cnt[8]_i_1_n_0    |                3 |              9 |         3.00 |
-|  clk_div/inst/clk_out2      |                                 | vga_display/hCounter[9]_i_1_n_0 |                3 |             10 |         3.33 |
-|  clk_div/inst/clk_out2      | vga_display/hCounter[9]_i_1_n_0 |                                 |                3 |             10 |         3.33 |
-|  OV7670_PCLK_IBUF_BUFG      | capture/dout1                   |                                 |                5 |             12 |         2.40 |
-|  clk_div/inst/clk_out2      |                                 | vga_display/vga_red[3]_i_1_n_0  |                7 |             12 |         1.71 |
-|  OV7670_PCLK_IBUF_BUFG      | capture/d_latch_0               |                                 |                5 |             15 |         3.00 |
-|  clk_div/inst/clk_out2      |                                 |                                 |               11 |             17 |         1.55 |
-|  clk_div/inst/clk_out2      | vga_display/address0            | vga_display/RSTP                |                5 |             17 |         3.40 |
-|  clk_div/inst/clk_out2      |                                 | btn_debounce/o                  |               10 |             23 |         2.30 |
-|  clk_div/inst/clk_out1      |                                 | btn_debounce/clear              |                6 |             24 |         4.00 |
-|  OV7670_PCLK_IBUF_BUFG      | capture/address                 | OV7670_VSYNC_IBUF               |               10 |             34 |         3.40 |
-+-----------------------------+---------------------------------+---------------------------------+------------------+----------------+--------------+
++-----------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
+|         Clock Signal        |           Enable Signal           |            Set/Reset Signal            | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
+|  clk_div/inst/clk_out1      |                                   |                                        |                1 |              1 |         1.00 |
+|  vga_display/vga_hsync_OBUF |                                   | vga_display/VCNT[9]_i_1_n_0            |                1 |              4 |         4.00 |
+|  capture/Predict_reg_n_0    |                                   | capture/dtc_inst/result_reg[3]_i_2_n_0 |                3 |              4 |         1.33 |
+|  clk_div/inst/clk_out2      |                                   | vga_display/HCNT[8]_i_1_n_0            |                2 |              4 |         2.00 |
+|  clk_div/inst/clk_out2      | IIC/sccb_sender/E[0]              | btn_debounce/o                         |                2 |              5 |         2.50 |
+|  vga_display/vga_hsync_OBUF |                                   | vga_display/VCNT[8]_i_1_n_0            |                2 |              6 |         3.00 |
+|  clk_div/inst/clk_out2      |                                   |                                        |                5 |              6 |         1.20 |
+|  clk_div/inst/clk_out2      |                                   | vga_display/HCNT[9]_i_1_n_0            |                2 |              6 |         3.00 |
+|  clk_div/inst/clk_out2      | IIC/sccb_sender/SD_COUNTER        | btn_debounce/o                         |                2 |              6 |         3.00 |
+|  OV7670_PCLK_IBUF_BUFG      |                                   | OV7670_VSYNC_IBUF                      |                3 |              7 |         2.33 |
+|  OV7670_PCLK_IBUF_BUFG      | capture/class_idx[7]_i_1_n_0      | OV7670_VSYNC_IBUF                      |                5 |              8 |         1.60 |
+|  clk_div/inst/clk_out2      | vga_display/address0              | vga_display/RSTP                       |                3 |              8 |         2.67 |
+|  clk_div/inst/clk_out2      | IIC/LUT_INDEX[0]_i_1_n_0          | btn_debounce/o                         |                3 |              8 |         2.67 |
+|  OV7670_PCLK_IBUF_BUFG      | capture/pixel_cnt                 | OV7670_VSYNC_IBUF                      |                4 |              9 |         2.25 |
+|  clk_div/inst/clk_out2      |                                   | vga_display/hCounter[9]_i_1_n_0        |                3 |             10 |         3.33 |
+|  clk_div/inst/clk_out2      | vga_display/hCounter[9]_i_1_n_0   |                                        |                4 |             10 |         2.50 |
+|  clk_div/inst/clk_out2      |                                   | vga_display/vga_red[3]_i_1_n_0         |                3 |             12 |         4.00 |
+|  OV7670_PCLK_IBUF_BUFG      | capture/d_latch                   |                                        |                9 |             17 |         1.89 |
+|  clk_div/inst/clk_out2      |                                   | btn_debounce/o                         |               11 |             23 |         2.09 |
+|  clk_div/inst/clk_out1      |                                   | btn_debounce/clear                     |                6 |             24 |         4.00 |
+|  OV7670_PCLK_IBUF_BUFG      | capture/delay_counter[31]_i_1_n_0 | OV7670_VSYNC_IBUF                      |               11 |             32 |         2.91 |
+|  OV7670_PCLK_IBUF_BUFG      | capture/address                   | OV7670_VSYNC_IBUF                      |                9 |             34 |         3.78 |
+|  OV7670_PCLK_IBUF_BUFG      |                                   |                                        |               34 |             99 |         2.91 |
++-----------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
 
 

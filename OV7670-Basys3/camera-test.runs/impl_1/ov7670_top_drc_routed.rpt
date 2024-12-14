@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Mon Dec  2 00:37:44 2024
+| Date         : Thu Dec 12 23:14:50 2024
 | Host         : LAPTOP-D1MNH2FH running 64-bit major release  (build 9200)
 | Command      : report_drc -file ov7670_top_drc_routed.rpt -pb ov7670_top_drc_routed.pb -rpx ov7670_top_drc_routed.rpx
 | Design       : ov7670_top
@@ -24,11 +24,12 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max checks: <unlimited>
-             Checks found: 2
+             Checks found: 3
 +----------+----------+-----------------------------------------------------+--------+
 | Rule     | Severity | Description                                         | Checks |
 +----------+----------+-----------------------------------------------------+--------+
 | CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1      |
+| PDRC-138 | Warning  | SLICE_PairEqSame_D6D5_WARN                          | 1      |
 | PLCK-12  | Warning  | Clock Placer Checks                                 | 1      |
 +----------+----------+-----------------------------------------------------+--------+
 
@@ -45,6 +46,11 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-138#1 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X1Y19 with different equations without A6 pin connected to Global Logic High.
 Related violations: <none>
 
 PLCK-12#1 Warning

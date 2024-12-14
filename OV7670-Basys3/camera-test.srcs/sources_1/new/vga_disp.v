@@ -85,10 +85,20 @@ always@(posedge clk25) begin
 
     // Set pixel colors
     if(!blank && in_display_area) begin
-//        gray <= (3*frame_pixel[11:8]) + (6*frame_pixel[7:4]) + frame_pixel[3:0];
+//        gray <= ((3*frame_pixel[11:8]) + (6*frame_pixel[7:4]) + frame_pixel[3:0])/10;
 //        vga_red   <= gray;
 //        vga_green <= gray;
 //        vga_blue  <= gray;
+//        if (gray > 7) begin
+//            vga_red   <= 4'b1111;
+//            vga_green <= 4'b1111;
+//            vga_blue  <= 4'b1111;
+//        end
+//        else begin
+//            vga_red   <= 4'b0000;
+//            vga_green <= 4'b0000;
+//            vga_blue  <= 4'b0000;    
+//        end
         vga_red   <= frame_pixel[11:8];
         vga_green <= frame_pixel[7:4];
         vga_blue  <= frame_pixel[3:0];

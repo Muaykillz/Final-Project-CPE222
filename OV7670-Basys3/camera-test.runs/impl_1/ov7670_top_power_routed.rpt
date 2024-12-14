@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Mon Dec  2 00:37:49 2024
+| Date             : Thu Dec 12 23:14:55 2024
 | Host             : LAPTOP-D1MNH2FH running 64-bit major release  (build 9200)
 | Command          : report_power -file ov7670_top_power_routed.rpt -pb ov7670_top_power_summary_routed.pb -rpx ov7670_top_power_routed.rpx
 | Design           : ov7670_top
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.187        |
+| Total On-Chip Power (W)  | 0.184        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.114        |
-| Device Static (W)        | 0.073        |
+| Dynamic (W)              | 0.112        |
+| Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.1         |
 | Junction Temperature (C) | 25.9         |
@@ -52,20 +52,20 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |     0.001 |        6 |       --- |             --- |
-| Slice Logic    |    <0.001 |      783 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      345 |     20800 |            1.66 |
-|   CARRY4       |    <0.001 |       18 |      8150 |            0.22 |
-|   Register     |    <0.001 |      228 |     41600 |            0.55 |
+| Clocks         |    <0.001 |        6 |       --- |             --- |
+| Slice Logic    |    <0.001 |     1511 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      890 |     20800 |            4.28 |
+|   CARRY4       |    <0.001 |       27 |      8150 |            0.33 |
+|   Register     |    <0.001 |      343 |     41600 |            0.82 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
-|   F7/F8 Muxes  |    <0.001 |       41 |     32600 |            0.13 |
-|   Others       |     0.000 |       87 |       --- |             --- |
-| Signals        |    <0.001 |      695 |       --- |             --- |
-| Block RAM      |     0.003 |     26.5 |        50 |           53.00 |
+|   F7/F8 Muxes  |    <0.001 |      110 |     32600 |            0.34 |
+|   Others       |     0.000 |       16 |       --- |             --- |
+| Signals        |    <0.001 |     1079 |       --- |             --- |
+| Block RAM      |    <0.001 |      0.5 |        50 |            1.00 |
 | MMCM           |     0.106 |        1 |         5 |           20.00 |
-| I/O            |     0.003 |       36 |       106 |           33.96 |
-| Static Power   |     0.073 |          |           |                 |
-| Total          |     0.187 |          |           |                 |
+| I/O            |     0.004 |       52 |       106 |           49.06 |
+| Static Power   |     0.072 |          |           |                 |
+| Total          |     0.184 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.016 |       0.005 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.013 |       0.003 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.071 |       0.059 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -84,7 +84,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
@@ -144,15 +144,12 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------------------------+-----------+
-| Name                   | Power (W) |
-+------------------------+-----------+
-| ov7670_top             |     0.114 |
-|   clk_div              |     0.106 |
-|     inst               |     0.106 |
-|   u_frame_buffer       |     0.003 |
-|     U0                 |     0.003 |
-|       inst_blk_mem_gen |     0.003 |
-+------------------------+-----------+
++------------+-----------+
+| Name       | Power (W) |
++------------+-----------+
+| ov7670_top |     0.112 |
+|   clk_div  |     0.106 |
+|     inst   |     0.106 |
++------------+-----------+
 
 

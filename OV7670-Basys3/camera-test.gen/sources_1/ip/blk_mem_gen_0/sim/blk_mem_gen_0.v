@@ -70,7 +70,7 @@ input wire clka;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTA WE" *)
 input wire [0 : 0] wea;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTA ADDR" *)
-input wire [16 : 0] addra;
+input wire [7 : 0] addra;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTA DIN" *)
 input wire [11 : 0] dina;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTB CLK" *)
@@ -78,7 +78,7 @@ input wire [11 : 0] dina;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME BRAM_PORTB, MEM_ADDRESS_MODE BYTE_ADDRESS, MEM_SIZE 8192, MEM_WIDTH 32, MEM_ECC NONE, MASTER_TYPE OTHER, READ_LATENCY 1" *)
 input wire clkb;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTB ADDR" *)
-input wire [16 : 0] addrb;
+input wire [7 : 0] addrb;
 (* X_INTERFACE_INFO = "xilinx.com:interface:bram:1.0 BRAM_PORTB DOUT" *)
 output wire [11 : 0] doutb;
 
@@ -114,9 +114,9 @@ output wire [11 : 0] doutb;
     .C_WRITE_MODE_A("NO_CHANGE"),
     .C_WRITE_WIDTH_A(12),
     .C_READ_WIDTH_A(12),
-    .C_WRITE_DEPTH_A(76800),
-    .C_READ_DEPTH_A(76800),
-    .C_ADDRA_WIDTH(17),
+    .C_WRITE_DEPTH_A(144),
+    .C_READ_DEPTH_A(144),
+    .C_ADDRA_WIDTH(8),
     .C_HAS_RSTB(0),
     .C_RST_PRIORITY_B("CE"),
     .C_RSTRAM_B(0),
@@ -128,9 +128,9 @@ output wire [11 : 0] doutb;
     .C_WRITE_MODE_B("WRITE_FIRST"),
     .C_WRITE_WIDTH_B(12),
     .C_READ_WIDTH_B(12),
-    .C_WRITE_DEPTH_B(76800),
-    .C_READ_DEPTH_B(76800),
-    .C_ADDRB_WIDTH(17),
+    .C_WRITE_DEPTH_B(144),
+    .C_READ_DEPTH_B(144),
+    .C_ADDRB_WIDTH(8),
     .C_HAS_MEM_OUTPUT_REGS_A(0),
     .C_HAS_MEM_OUTPUT_REGS_B(1),
     .C_HAS_MUX_OUTPUT_REGS_A(0),
@@ -155,9 +155,9 @@ output wire [11 : 0] doutb;
     .C_EN_SHUTDOWN_PIN(0),
     .C_EN_SAFETY_CKT(0),
     .C_DISABLE_WARN_BHV_RANGE(0),
-    .C_COUNT_36K_BRAM("26"),
+    .C_COUNT_36K_BRAM("0"),
     .C_COUNT_18K_BRAM("1"),
-    .C_EST_POWER_SUMMARY("Estimated Power for IP     :     16.2184 mW")
+    .C_EST_POWER_SUMMARY("Estimated Power for IP     :     2.85095 mW")
   ) inst (
     .clka(clka),
     .rsta(1'D0),

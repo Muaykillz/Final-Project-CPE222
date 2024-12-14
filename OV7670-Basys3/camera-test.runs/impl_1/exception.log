@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file C:\Users\Mu\Documents\CPE222\Final-Project-CPE222\OV7670-Basys3\camera-test.runs\impl_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied
